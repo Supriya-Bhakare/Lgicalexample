@@ -2,6 +2,9 @@ package example;
 
 public class calculate {
 
+	
+	
+	//addition of given no;
 	public static void main(String[] args) {
 		
 		
@@ -20,7 +23,7 @@ public class calculate {
 			
 		}
 		
-		no++;
+	
 		
 		System.out.println(sum);
 		
