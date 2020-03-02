@@ -9,7 +9,7 @@ public class LogicalPallindromelist {
 	//}
 		
 		
-		int no=120;
+		int no=121;
 		
 		int rem=0;
 		int sum =0;

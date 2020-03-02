@@ -8,12 +8,18 @@ public class LogicalAmstrome {
 		System.out.println("Logical amstrome ");
 		
 		
-		int no=157;
+		
+		//int no=153;
+		
 		int rem =0;
 		int sum =0;
 		
-		Scanner sc=new Scanner(System.in);
-		int i=sc.nextInt();
+	Scanner sc=new Scanner(System.in);
+		
+		
+		System.out.println("Enter a no");
+		int no=sc.nextInt();
+		int tempx=no;
 		while(no>0){
 			
 			rem =no%10;
@@ -22,7 +28,7 @@ public class LogicalAmstrome {
 			no =no/10;
 		}
 	
-		if(no==sum){
+		if(tempx==sum){
 		System.out.println("it is amstrome:"+ sum);
 
 		}
